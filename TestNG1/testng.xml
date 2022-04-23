@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name ="listerner.mylistener"/>
+</listeners>
+  <test name="Test">
+    <classes>
+    
+   <class name="Testcases.CreateUser"/>
+    </classes>
+  </test>
+   <!-- Test -->
+   
+   <test name="Test2">
+    <classes>
+   <class name="Testcases.login1"/>
+    </classes>
+  </test>
+  
+  <test name="Test3">
+    <classes>
+       <class name="Testcases.SearchAndBuyPhone"/>
+    </classes>
+  </test>
+  
+  <test name="Test4">
+    <classes>
+   <class name="Testcases.Login"/>
+     </classes>
+  </test>
+  
+  <test name="Test5">
+    <classes>
+   <class name="Testcases.ValidateUserReg"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
+
+
